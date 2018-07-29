@@ -1,0 +1,22 @@
+{
+  "cdn_root": {
+    "dev": "https://www.library.dev.auckland.ac.nz/shared/",
+    "test": "https://www.library.test.auckland.ac.nz/shared/",
+    "prod": "https://www.library.auckland.ac.nz/shared/",
+    "*": "https://www.library.auckland.ac.nz/shared/"
+  },
+  "cache_periods": {
+    "js" : "30 days",
+    "map" : "30 days",
+
+    "css" : "5 days",
+    "eot" : "5 days",
+    "svg" : "5 days",
+    "ttf" : "5 days",
+    "woff" : "5 days",
+    "woff2" : "5 days",
+
+    "*" : "1 day"
+  },
+  "cdn_version": "0.8.0"
+}
